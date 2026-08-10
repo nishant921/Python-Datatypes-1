@@ -1,0 +1,14 @@
+# Problem 12: Write a program that can find the max number of each row of a matrix
+# Example:
+
+# Input:
+# [[1,2,3],[4,5,6],[7,8,9]]
+# Output:
+# [3,6,9]
+
+l=[[1,2,3],[4,5,6],[7,8,9]]
+l2=list(max(i) for i in l)
+# for i in l:
+#     l2.append(max(i))
+print(l2)
+
